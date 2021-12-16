@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      database: DeplacementDemo
+      host: localhost
+      port: 27017
+
+server:
+  port: 8082
+
+patient:
+  uri: http://localhost:8080
+
+infirmier:
+  uri: http://localhost:8081
